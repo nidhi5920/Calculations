@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Calculations
 @_exported import Calculations
 import Foundation
+import GreetSPM
 import Swift
 import _Concurrency
 @_hasMissingDesignatedInitializers public class Operation {

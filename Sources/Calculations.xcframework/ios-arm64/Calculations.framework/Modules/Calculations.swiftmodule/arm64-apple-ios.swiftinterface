@@ -1,0 +1,12 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Calculations
+@_exported import Calculations
+import Foundation
+import Swift
+import _Concurrency
+@_hasMissingDesignatedInitializers public class Operation {
+  public static func addNumbers(num1: Swift.Double, num2: Swift.Double) -> Swift.Double
+  public static func subtractNumbers(num1: Swift.Double, num2: Swift.Double) -> Swift.Double
+  @objc deinit
+}
